@@ -1,0 +1,27 @@
+{
+  "id": "junie",
+  "displayName": "Junie",
+  "description": "Registers JetBrains Junie CLI as the acp-junie provider in bb via its native ACP mode (`junie --acp true`).",
+  "icon": {
+    "url": "./icons/junie-875e89ae.svg"
+  },
+  "tags": [
+    "junie",
+    "jetbrains",
+    "provider",
+    "agents",
+    "acp"
+  ],
+  "author": {
+    "name": "Junie",
+    "github": "junie-agent",
+    "url": "https://github.com/junie-agent"
+  },
+  "category": "agents-and-providers",
+  "source": {
+    "git": {
+      "url": "https://github.com/junie-agent/bb-plugin-junie-acp.git",
+      "range": "^0.1.0"
+    }
+  }
+}
